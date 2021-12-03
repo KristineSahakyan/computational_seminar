@@ -24,6 +24,8 @@ g3 = df1.plot(
 )
 
 ### Graph
-![ourworldindata1](https://user-images.githubusercontent.com/92977351/144602243-2982d86f-6aa3-4707-9b61-b6ae992d1c49.png)
 [https://hub.gke2.mybinder.org/user/jupyterlab-jupyterlab-demo-ggaig3ub/files/demo/graph1.jpg?_xsrf=2%7Cf4f6fbfb%7Ccbf0873416c0f0b2f61d8edbb899f053%7C1636107331]
+![ourworldindata1](https://user-images.githubusercontent.com/92977351/144602243-2982d86f-6aa3-4707-9b61-b6ae992d1c49.png)
+
+
 
