@@ -1,4 +1,4 @@
-# Welcome to Kristine Sahakyan's GitHub Pages
+# Welcome to Kristine's GitHub Pages
 
 This is the first GitHub Page, with lots of room for improvement. :)
 
@@ -24,4 +24,6 @@ g3 = df1.plot(
 )
 
 ### Graph
-[https://hub.gke2.mybinder.org/user/jupyterlab-jupyterlab-demo-3aiv5wzq/lab/tree/demo/graph1.jpg](url) and ![Image](src)
+[https://hub.gke2.mybinder.org/user/jupyterlab-jupyterlab-demo-3aiv5wzq/lab/tree/demo/graph1.jpg](url)
+![ourworldindata1](https://user-images.githubusercontent.com/92977351/144602243-2982d86f-6aa3-4707-9b61-b6ae992d1c49.png)
+
