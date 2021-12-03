@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Welcome to Kristine Sahakyan's GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/KristineSahakyan/computational_seminar/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is the first GitHub Page, with lots of room for improvement. :)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Share of firms with female top managers, 2020
 
-### Markdown
+I tried to replicate a graph from _Our World in Data_. The graph shows the share of firms that have a woman as manager by world regions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Code
+import pandas as pd
+df1 = pd.read_csv('Graph1.csv')
+import matplotlib.pyplot as plt
+%matplotlib inline
+df1.set_index("Entity",drop=True,inplace=True)
+g3 = df1.plot(
+    kind="bar",
+    title="Share of firms with female top managers, 2020",
+    color="darkturquoise"
+)
+g3 = df1.plot(
+    kind="bar",
+    title="Share of firms with female top managers, 2020",
+    color="darkturquoise"
+)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KristineSahakyan/computational_seminar/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Graph
+[https://hub.gke2.mybinder.org/user/jupyterlab-jupyterlab-demo-3aiv5wzq/lab/tree/demo/graph1.jpg](url) and ![Image](src)
